@@ -1,0 +1,12 @@
+GET http://localhost:8081/
+
+POST http://localhost:8081/login
+Content-Type: application/json
+
+{
+    "username" : "newtonnewton",
+    "password" : "1234",
+    "phone" : "12345a6789",
+    "address" : "ashfjahsf",
+    "city" : "asfjkashfjk"
+}
